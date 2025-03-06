@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/kevinRushProfile.png";
+import profilePic from "../assets/Avatar_Header.png";
 import { motion } from "motion/react";
 
 const container = (delay) => ({
@@ -39,15 +39,28 @@ function Hero() {
             </motion.p>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 lg:p-8">
+        <div className="relative w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
-            <motion.img
-              initial={{ x: 100, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 1.2 }}
-              src={profilePic}
-              alt="Khusan Khujakeldiev"
-            />
+            <div className="relative rounded-2xl overflow-hidden">
+              <motion.img
+                className="rounded-2xl"
+                initial={{ x: 100, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 1, delay: 1.2 }}
+                src={profilePic}
+                alt="Khusan Khujakeldiev"
+              />
+              <motion.div
+                className="absolute bottom-0 left-0 right-0 h-1/2 z-10"
+                initial={{ x: 100, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 1, delay: 1.2 }}
+                style={{
+                  background:
+                    "linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))",
+                }}
+              ></motion.div>
+            </div>
           </div>
         </div>
       </div>
