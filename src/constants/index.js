@@ -2,7 +2,6 @@ import project1 from "../assets/projects/Proj_1.jpg";
 import project2 from "../assets/projects/Proj_2.jpg";
 import project3 from "../assets/projects/Proj_3.jpg";
 import project4 from "../assets/projects/Proj_4.jpg";
-// import project5 from "../assets/projects/Proj_5.jpg";
 
 export const HERO_CONTENT = `Web developer with a strong technical background and freelance experience. Expert in HTML, CSS, JavaScript and modern frameworks such as React. Deep understanding of responsive layout, preprocessors (LESS, SASS) and UI libraries (Tailwind, Bootstrap). Experience with MySQL databases and server-side API integration. Ready to bring value to the team, develop user-friendly and productive interfaces and learn new technologies.`;
 
@@ -71,6 +70,8 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, with product options and dynamic cart functionality.",
+    github: "",
+    website: "",
     technologies: [
       "HTML",
       "CSS",
@@ -89,6 +90,8 @@ export const PROJECTS = [
     image: project2,
     description:
       "A music management application that integrates with Spotify, enabling users to search for tracks, create custom playlists, and seamlessly add them to their Spotify account. Key features include music discovery, playlist customization, and direct synchronization with Spotify.",
+    github: "",
+    website: "",
     technologies: ["HTML", "CSS", "SCSS", "JavaScript", "React"],
   },
   {
@@ -96,6 +99,8 @@ export const PROJECTS = [
     image: project3,
     description:
       "A personal portfolio website showcasing projects, technologies, skills and contact information.",
+    github: "",
+    website: "",
     technologies: ["HTML", "CSS", "React", "Tailwind"],
   },
   {
@@ -103,6 +108,8 @@ export const PROJECTS = [
     image: project4,
     description:
       "A landing page for a fictional AI startup, featuring a modern design, interactive elements, and smooth animations.",
+    github: "",
+    website: "",
     technologies: ["HTML", "CSS", "Next.js", "React", "TypeScript"],
   },
 ];
