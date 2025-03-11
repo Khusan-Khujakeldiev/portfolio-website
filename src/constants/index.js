@@ -1,7 +1,8 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/Proj_1.jpg";
+import project2 from "../assets/projects/Proj_2.jpg";
+import project3 from "../assets/projects/Proj_3.jpg";
+import project4 from "../assets/projects/Proj_4.jpg";
+// import project5 from "../assets/projects/Proj_5.jpg";
 
 export const HERO_CONTENT = `Web developer with a strong technical background and freelance experience. Expert in HTML, CSS, JavaScript and modern frameworks such as React. Deep understanding of responsive layout, preprocessors (LESS, SASS) and UI libraries (Tailwind, Bootstrap). Experience with MySQL databases and server-side API integration. Ready to bring value to the team, develop user-friendly and productive interfaces and learn new technologies.`;
 
@@ -31,7 +32,7 @@ Performance optimisation and SEO.`,
     year: "2024  - Present",
     role: "Full Stack Developer",
     company: "Own Project(Online Shop)",
-    description: `Development and support of web projects for clients, including full-featured e-commerce applications. Creation of responsive and visually appealing interfaces using Tailwind, Bootstrap, and SASS. API integration and MySQL database management. Implementation of GraphQL for optimized data fetching and faster content loading. State management with Redux for predictable data flow. Shopping cart functionality with add, remove, and update features. Product filtering by category, price, and brand for enhanced user experience. Performance optimization and SEO best practices implementation.`,
+    description: `I developed a fully functional online store from scratch, showcasing my expertise in both frontend and backend development. The platform allows users to browse products, select colors, and customize additional features, providing a seamless and interactive shopping experience. Users can view detailed product images, explore various categories, and manage their shopping cart by adding, modifying, or removing items. The cart functionality is dynamic, enabling users to update product properties or remove items effortlessly.`,
     technologies: [
       "HTML",
       "CSS",
