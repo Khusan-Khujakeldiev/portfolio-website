@@ -70,29 +70,40 @@ export const PROJECTS = [
     title: "E-Commerce Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional e-commerce website with features like product listing, shopping cart, with product options and dynamic cart functionality.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "mySQL",
+      "React.js",
+      "Redux",
+      "Php",
+      "GraphQL",
+      "XAMPP",
+      "Postman",
+    ],
   },
   {
-    title: "Task Management App",
+    title: "Spotify Music Manager",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A music management application that integrates with Spotify, enabling users to search for tracks, create custom playlists, and seamlessly add them to their Spotify account. Key features include music discovery, playlist customization, and direct synchronization with Spotify.",
+    technologies: ["HTML", "CSS", "SCSS", "JavaScript", "React"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A personal portfolio website showcasing projects, technologies, skills and contact information.",
+    technologies: ["HTML", "CSS", "React", "Tailwind"],
   },
   {
-    title: "Blogging Platform",
+    title: "Ai-Startup landing page",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A landing page for a fictional AI startup, featuring a modern design, interactive elements, and smooth animations.",
+    technologies: ["HTML", "CSS", "Next.js", "React", "TypeScript"],
   },
 ];
 
