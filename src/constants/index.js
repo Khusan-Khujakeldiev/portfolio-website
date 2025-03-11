@@ -66,11 +66,40 @@ export const COURSES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Portfolio Website",
     image: project1,
     description:
+      "A personal portfolio website showcasing projects, technologies, skills and contact information.",
+    github: "https://github.com/Khusan-Khujakeldiev/portfolio-website",
+    website: "https://khusan-khujakeldiev.github.io/portfolio-website/",
+    technologies: ["HTML", "CSS", "React", "Tailwind"],
+  },
+
+  {
+    title: "Spotify Music Manager",
+    image: project2,
+    description:
+      "A music management application that integrates with Spotify, enabling users to search for tracks, create custom playlists, and seamlessly add them to their Spotify account. Key features include music discovery, playlist customization, and direct synchronization with Spotify.",
+    github: "https://github.com/Khusan-Khujakeldiev/jamming",
+    website: "https://jamming-virid.vercel.app/",
+    technologies: ["HTML", "CSS", "SCSS", "JavaScript", "React"],
+  },
+  {
+    title: "Ai-Startup landing page",
+    image: project3,
+    description:
+      "A landing page for a fictional AI startup, featuring a modern design, interactive elements, and smooth animations.",
+    github: "https://github.com/Khusan-Khujakeldiev/AI-Startup",
+    website: "https://ai-startup-rose.vercel.app/",
+    technologies: ["HTML", "CSS", "Next.js", "React", "TypeScript"],
+  },
+
+  {
+    title: "E-Commerce Website",
+    image: project4,
+    description:
       "A fully functional e-commerce website with features like product listing, shopping cart, with product options and dynamic cart functionality.",
-    github: "",
+    github: "https://github.com/Khusan-Khujakeldiev/testshop",
     website: "",
     technologies: [
       "HTML",
@@ -84,33 +113,6 @@ export const PROJECTS = [
       "XAMPP",
       "Postman",
     ],
-  },
-  {
-    title: "Spotify Music Manager",
-    image: project2,
-    description:
-      "A music management application that integrates with Spotify, enabling users to search for tracks, create custom playlists, and seamlessly add them to their Spotify account. Key features include music discovery, playlist customization, and direct synchronization with Spotify.",
-    github: "",
-    website: "",
-    technologies: ["HTML", "CSS", "SCSS", "JavaScript", "React"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, technologies, skills and contact information.",
-    github: "",
-    website: "",
-    technologies: ["HTML", "CSS", "React", "Tailwind"],
-  },
-  {
-    title: "Ai-Startup landing page",
-    image: project4,
-    description:
-      "A landing page for a fictional AI startup, featuring a modern design, interactive elements, and smooth animations.",
-    github: "",
-    website: "",
-    technologies: ["HTML", "CSS", "Next.js", "React", "TypeScript"],
   },
 ];
 
