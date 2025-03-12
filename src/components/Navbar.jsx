@@ -1,12 +1,6 @@
 import { useEffect, useState } from "react";
 import logo from "../assets/Logo_circle.png";
-import {
-  FaLinkedin,
-  FaGithub,
-  FaSquareXTwitter,
-  FaInstagram,
-  FaTelegram,
-} from "react-icons/fa6";
+import { FaLinkedin, FaGithub, FaInstagram, FaTelegram } from "react-icons/fa6";
 import "../assets/css/Navbar.css";
 
 const Navbar = () => {
@@ -60,7 +54,7 @@ const Navbar = () => {
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
           <a
-            href="www.linkedin.com/in/khusan-khujakeldiev-1224b5294"
+            href="https://www.linkedin.com/in/khusan-khujakeldiev-1224b5294"
             target="_blank"
           >
             <FaLinkedin />
@@ -95,7 +89,7 @@ const Navbar = () => {
       {isMobile && (
         <div className={`menu ${isOpen ? "open" : ""}`}>
           <a
-            href="www.linkedin.com/in/khusan-khujakeldiev-1224b5294"
+            href="https://www.linkedin.com/in/khusan-khujakeldiev-1224b5294"
             target="_blank"
           >
             <FaLinkedin />
