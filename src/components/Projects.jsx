@@ -1,6 +1,8 @@
 import { PROJECTS } from "../constants";
 import { motion } from "motion/react";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 function Projects() {
   return (
     <div className=" border-x-neutral-900 pb-4">
@@ -23,8 +25,8 @@ function Projects() {
             >
               <img
                 src={project.image}
-                width={150}
-                height={150}
+                width={170}
+                height={170}
                 alt={project.title}
                 className=" mb-6 rounded"
               />
@@ -45,6 +47,25 @@ function Projects() {
                   {tech}
                 </span>
               ))}
+              {project.website && (
+                <a
+                  href={project.website}
+                  target="_blank"
+                  className="text-neutral-400 hover:text-blue-400 ml-2 pt-2 font-medium inline-flex items-center"
+                >
+                  <FontAwesomeIcon icon={faGlobe} className="mr-1" /> Visit
+                  Website
+                </a>
+              )}
+              {project.github && (
+                <a
+                  href={project.github}
+                  target="_blank"
+                  className="text-neutral-400 hover:text-yellow-400 ml-2 pt-2 inline-flex items-center"
+                >
+                  <FontAwesomeIcon icon={faGithub} className="mr-1" /> GitHub
+                </a>
+              )}
             </motion.div>
           </div>
         ))}

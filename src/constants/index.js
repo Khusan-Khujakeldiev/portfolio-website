@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/Proj_1.jpg";
-import project2 from "../assets/projects/Proj_2.jpg";
-import project3 from "../assets/projects/Proj_3.jpg";
-import project4 from "../assets/projects/Proj_4.jpg";
+import project1 from "../assets/projects/Proj_1.png";
+import project2 from "../assets/projects/Proj_2.png";
+import project3 from "../assets/projects/Proj_3.png";
+import project4 from "../assets/projects/Proj_4.png";
 
 export const HERO_CONTENT = `Web developer with a strong technical background and freelance experience. Expert in HTML, CSS, JavaScript and modern frameworks such as React. Deep understanding of responsive layout, preprocessors (LESS, SASS) and UI libraries (Tailwind, Bootstrap). Experience with MySQL databases and server-side API integration. Ready to bring value to the team, develop user-friendly and productive interfaces and learn new technologies.`;
 
